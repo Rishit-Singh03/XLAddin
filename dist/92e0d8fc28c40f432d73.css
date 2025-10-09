@@ -541,17 +541,9 @@ body {
     position: relative;
 }
 
-.message-assistant .message-content ul li {
-    list-style: none;
-}
+.message-assistant .message-content ul li { list-style: disc; padding-left: 1.25rem;}
 
-.message-assistant .message-content ul li::before {
-    content: 'â–¸';
-    color: #F28A30;
-    font-weight: bold;
-    position: absolute;
-    left: -20px;
-}
+.message-assistant .message-content ul li::before { content: none; }
 
 .message-assistant .message-content ol li {
     list-style: decimal;
